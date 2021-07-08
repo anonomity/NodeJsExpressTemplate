@@ -2,9 +2,9 @@
   "name": "nodetemplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.ts",
   "scripts": {
-    "start": "nodemon index.ts",
+    "start": "nodemon src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --project ./"
   },
@@ -16,7 +16,8 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "helmet": "^4.6.0"
+    "helmet": "^4.6.0",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "@types/cors": "^2.8.11",
